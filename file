@@ -1,0 +1,18 @@
+use $ssh-keygen  to create keys
+
+jsut hit enter enter , no need to give anything
+
+once keys are created 
+
+run as root
+#eval $(ssh-agent -s)
+
+#ssh-add ~/.ssh/id_rsa
+
+now 
+
+cat /root/.ssh/id_rsa.pub
+
+copy the contents displayed on the screen to the github --
+
+after this we can clone repo using ssh
